@@ -3,10 +3,11 @@ Project for Database course
 
 Cody Liske
 
-TOC\n
+TOC
+
 Introduction
 Use Case
-Business Rules
+Business Rule
 EERD
 MySQL Queries (three)
 Trigger
