@@ -3,7 +3,7 @@ Project for Database course
 
 Cody Liske
 
-TOC
+TOC\n
 Introduction
 Use Case
 Business Rules
