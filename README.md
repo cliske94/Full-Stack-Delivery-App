@@ -8,6 +8,14 @@ Project for Database course
 Cody Liske
 
 TOC
+<ul>
+  <li>Introduction</li>
+  <li>Use Case</li>
+  <li>Business Rules</li>
+  <li>EERD</li>
+  <li>Data Dictionary</li>
+  <li>Mysql Queries</li>
+</ul>
 
 <h1>
 Introduction
@@ -15,16 +23,25 @@ Introduction
 <p>
 The objective of this project is to design and implement a database for an on-campus food delivery service that hires drivers from the student body to pick up and deliver food items.
 </p>
+
 <h1>
 Use Case
 </h1>
+
 <h1>
 Business Rules
 </h1>
+
+<h1>
+EERD
+</h1>
+<img src="ProjectER.png">
+
 <h1>
   Data Dictionary
 </h1>
-<h1>Schema Report for database: mydb</h1>
+
+<h2>Schema Report for database: mydb</h2>
 <a id="home">Table List </a><br /><ul>
 <li><a href="#businesses">businesses </a></li>
 <li><a href="#cars">cars </a></li>
@@ -340,14 +357,7 @@ Business Rules
 </table><a href="#home">Table List </a></br>
 
 <h1>
-EERD
-</h1>
-<img src="ProjectER.png">
-<h1>
 MySQL Queries (three)
 </h1>
-Trigger
-Stored Procedure
-Web/App Implementation (Optional) or Description of Future Work
-MySQL dump
+
 </body>
