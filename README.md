@@ -342,6 +342,7 @@ Business Rules
 <h1>
 EERD
 </h1>
+![EERD](ProjectER.png)
 <h1>
 MySQL Queries (three)
 </h1>
