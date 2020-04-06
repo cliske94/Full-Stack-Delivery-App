@@ -32,6 +32,16 @@ Use Case
 Business Rules
 </h1>
 
+<ul>
+  <li>Drivers can only be students, all persons can place an order</li>
+  <li>Persons can place 0 to many orders, orders can only be from one business</li>
+  <li>Orders can have 1 or many items</li>
+  <li>Persons can rate driver and business</li>
+  <li>Delivery charge is a flat rate, can be changed during promotions</li>
+  <li>Orders have to be delivered at one of a set of specified locations</li>
+  <li>Only one customer and one driver can be tied to an order</li>
+</ul>
+
 <h1>
 EERD
 </h1>
@@ -223,6 +233,7 @@ EERD
 <tr><td>delivery_charge</td><td>INT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
 <tr><td>delivery_time_minutes</td><td>INT</td><td>No</td><td>No</td><td>No</td><td>NULL</td><td></td></tr>
 <tr><td>Locations_id</td><td>INT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>customer_id</td><td>INT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
 </table><a href="#home">Table List </a></br>
 <a id="payments"></a><table style="width:100%"><caption>Table: payments </caption>
 <tr><td>Table Comments</td><td colspan="6"></td></tr>
