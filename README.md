@@ -21,7 +21,7 @@ TOC
 Introduction
 </h1>
 <p>
-The objective of this project is to design and implement a database for an on-campus food delivery service that hires drivers from the student body to pick up and deliver food items.
+The objective of this project is to design and implement a database for an on-campus food delivery service that hires drivers from the UNCC student body to pick up and deliver food items to faculty, staff, and other students. The database should be capable of supporting a web application that allows persons to add menu items from a food establishment to a cart and place an order, as well as assigning and dispatching drivers on deliveries. The database should provide capability for record keeping of placed orders and rating history for both drivers and businesses.
 </p>
 
 <h1>
