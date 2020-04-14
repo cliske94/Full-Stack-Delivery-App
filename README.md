@@ -372,7 +372,7 @@ EERD
 
 The database design above was implemented in MySQL Workbench v.8.0.19 and filled with example test data using the filldb.com web application. Included in the project files of this repository is a SQL dump file called dumpFinal that includes all of the SQL statements necessary to reconstruct this database. Simply import the above dump file into an existing blank database schema in MySQL Workbench.
 
-<img src="">
+<img src="SelectScreenshot.PNG">
 
 <h1>
 MySQL Queries (three)
