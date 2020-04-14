@@ -365,7 +365,7 @@ EERD
 <tr><td>url</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
 <tr><td>univ_name</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
 <tr><td>address</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
-
+</table>
 <h1>
   MySQL Implementation
 </h1>
