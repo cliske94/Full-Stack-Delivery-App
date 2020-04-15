@@ -24,10 +24,6 @@ The objective of this project is to design and implement a database for an on-ca
 </p>
 
 <h1>
-Use Case
-</h1>
-
-<h1>
 Business Rules
 </h1>
 
