@@ -7,13 +7,14 @@ Project for Database course
 
 Cody Liske
 
-TOC
+Table of Contents
 <ul>
   <li>Introduction</li>
   <li>Business Rules</li>
   <li>EERD</li>
   <li>Data Dictionary</li>
   <li>Example SQL Queries</li>
+  <li>Full Stack CRUD App</li>
 </ul>
 
 <h1>
