@@ -383,5 +383,6 @@ A ruby on rails environment was set up on a partition with Ubuntu 18.04 installe
 <img src="Assets/img/update_form.png">
 <img src="Assets/img/show_rows.png">
 <img src="Assets/img/successful_update.png">
+<img src="Assets/img/parameterized_routes.png">
 
 </body>
