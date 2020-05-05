@@ -373,4 +373,10 @@ SQL Queries
 
 <img src="Assets/img/SelectScreenshot.PNG">
 
+<h1>
+  Front End Implementation
+</h1>
+
+A ruby on rails environment was set up on a partition with Ubuntu 18.04 installed using ruby version 2.7.1 and rails version 6.0.2.2. The above SQL dump was imported into a new schema on an instance of MariaDB version 10.1.44. Models will need to be created and database.yml will have to be configured for your database instance. It is a basic app with CRUD functionality implemented for the Persons table which, to adhere with rails conventions, was changed on my instance to People in order to generate scaffolding. The scaffolding was generated using a gem called schema_to_scaffold. There is also a basic landing page that uses the bootstrap JS library. The files for the CRUD application are above in the delivery folder. 
+
 </body>
