@@ -377,6 +377,7 @@ SQL Queries
 </h1>
 
 <img src="Assets/img/SelectScreenshot.PNG">
+<img src="Assets/img/viewSQL.png">
 
 <h1>
   Full Stack Basic CRUD Application
