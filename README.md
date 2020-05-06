@@ -7,9 +7,7 @@ Project for Database course
 
 Cody Liske
 
-<iframe width="420" height="315"
-src="https://youtu.be/8nKI92y9JZk">
-</iframe>
+[![Link to Youtube](http://img.youtube.com/vi/https://youtu.be/8nKI92y9JZk/0.jpg)](http://www.youtube.com/watch?v=https://youtu.be/8nKI92y9JZk "Video Title")
 
 Table of Contents
 <ul>
