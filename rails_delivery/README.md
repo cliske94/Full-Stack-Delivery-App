@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a very basic Rails application that provides a GUI dashboard 
+for interacting with the database introduced in this project. It implements 
+all four of the CRUD operations for the persons table, which was changed 
+to people to adhere to rails conventions.
