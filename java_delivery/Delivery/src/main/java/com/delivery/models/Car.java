@@ -1,10 +1,25 @@
 package com.delivery.models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name="cars")
 public class Car {
 	
 	private int drivers_id;
+	@Id
+	@GeneratedValue(generator = "uuid")
+	@GenericGenerator(name="uuid",strategy="uuid2")
+	@Column(name="VIN")
 	private String VIN;
-	private char insurance_verified_YorN;
+	private String insurance_verified_YorN;
 	private String color;
 	private String make;
 	private String model;
@@ -21,10 +36,10 @@ public class Car {
 	public void setVIN(String vIN) {
 		VIN = vIN;
 	}
-	public char getInsurance_verified_YorN() {
+	public String getInsurance_verified_YorN() {
 		return insurance_verified_YorN;
 	}
-	public void setInsurance_verified_YorN(char insurance_verified_YorN) {
+	public void setInsurance_verified_YorN(String insurance_verified_YorN) {
 		this.insurance_verified_YorN = insurance_verified_YorN;
 	}
 	public String getColor() {

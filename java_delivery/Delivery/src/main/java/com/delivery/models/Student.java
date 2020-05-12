@@ -1,6 +1,6 @@
 package com.delivery.models;
 
-public class Student extends Person {
+public class Student {
 	
 	private int persons_id;
 	private int student_id;

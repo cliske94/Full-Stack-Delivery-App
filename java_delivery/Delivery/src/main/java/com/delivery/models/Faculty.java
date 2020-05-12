@@ -1,7 +1,14 @@
 package com.delivery.models;
 
-public class Faculty extends Person {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="faculty")
+public class Faculty {
 	
+	@Id
 	private int persons_id;
 	private String title;
 	private String highest_degree;

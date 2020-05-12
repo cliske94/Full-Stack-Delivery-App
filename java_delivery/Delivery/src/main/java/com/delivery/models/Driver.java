@@ -2,12 +2,19 @@ package com.delivery.models;
 
 import java.sql.Date;
 
-public class Driver extends Person {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="drivers")
+public class Driver {
 	
 	private int license_number;
 	private int rating;
 	private Date date_hired;
 	private int driver_id;
+	@Id
 	private int persons_id;
 	public int getLicense_number() {
 		return license_number;

@@ -1,6 +1,6 @@
 package com.delivery.models;
 
-public class Staff extends Person {
+public class Staff {
 	
 	private char adminYorN;
 	private String position;
