@@ -26,8 +26,8 @@ public class CarsController {
         return foundCars;
     }
 	
-	@GetMapping("/cars/{id}")
-    public ResponseEntity<Car> getCar(@PathVariable(value="id") Integer id) {
+	@GetMapping("/cars/{VIN}")
+    public ResponseEntity<Car> getCar(@PathVariable(value="VIN") String id) {
         Car foundCar = dao.findById(id).orElse(null);
 
         if(foundCar == null) {

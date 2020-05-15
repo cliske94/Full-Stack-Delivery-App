@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="drivers")
+@Table(name="payments")
 public class Payment {
 	
 	private double amount;
