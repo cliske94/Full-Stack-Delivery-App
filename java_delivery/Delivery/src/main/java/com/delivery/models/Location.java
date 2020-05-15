@@ -1,7 +1,14 @@
 package com.delivery.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="drivers")
 public class Location {
 	
+	@Id
 	private int id;
 	private String dropoff_description;
 	private String name;

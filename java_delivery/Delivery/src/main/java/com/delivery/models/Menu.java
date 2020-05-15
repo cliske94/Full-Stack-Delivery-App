@@ -1,7 +1,14 @@
 package com.delivery.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="menus")
 public class Menu {
 	
+	@Id
 	private int menu_id;
 	private int businesses_id;
 	public int getMenu_id() {

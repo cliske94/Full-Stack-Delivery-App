@@ -1,5 +1,11 @@
 package com.delivery.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="drivers")
 public class Payment {
 	
 	private double amount;
@@ -9,6 +15,7 @@ public class Payment {
 	private int cvv;
 	private int zipcode;
 	private int Persons_id;
+	@Id
 	private int payment_id;
 	public double getAmount() {
 		return amount;

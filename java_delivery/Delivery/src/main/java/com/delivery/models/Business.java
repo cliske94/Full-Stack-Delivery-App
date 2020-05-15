@@ -2,8 +2,16 @@ package com.delivery.models;
 
 import java.sql.Time;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="businesses")
 public class Business {
 	
+	@Id
 	private int id;
 	private Time close_time;
 	private Time open_time;

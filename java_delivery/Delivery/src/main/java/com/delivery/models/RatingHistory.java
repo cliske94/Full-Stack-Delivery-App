@@ -2,8 +2,16 @@ package com.delivery.models;
 
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="rating_history")
 public class RatingHistory {
 	
+	@Id
 	private int rating_id;
 	private int rating;
 	private Timestamp timestamp;

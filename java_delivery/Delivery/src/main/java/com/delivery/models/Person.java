@@ -1,7 +1,14 @@
 package com.delivery.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="persons")
 public class Person {
 	
+	@Id
 	private int id;
 	private String mailing_address;
 	private String phone_number;

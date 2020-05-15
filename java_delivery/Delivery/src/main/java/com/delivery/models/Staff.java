@@ -1,9 +1,16 @@
 package com.delivery.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="staff")
 public class Staff {
 	
 	private char adminYorN;
 	private String position;
+	@Id
 	private int persons_id;
 	public char getAdminYorN() {
 		return adminYorN;

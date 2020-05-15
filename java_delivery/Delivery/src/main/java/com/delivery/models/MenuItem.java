@@ -1,7 +1,15 @@
 package com.delivery.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="menu_items")
 public class MenuItem {
 	
+	
+	@Id
 	private int item_code;
 	private String name;
 	private String text;

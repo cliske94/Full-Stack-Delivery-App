@@ -2,8 +2,15 @@ package com.delivery.models;
 
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="orders")
 public class Order {
-	
+	@Id
 	private int order_id;
 	private int drivers_driver_id;
 	private int businesses_id;

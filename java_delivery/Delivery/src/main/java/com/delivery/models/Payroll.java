@@ -2,8 +2,16 @@ package com.delivery.models;
 
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="payroll")
 public class Payroll {
 	
+	@Id
 	private int transaction_id;
 	private double gross_pay;
 	private float hours_worked;
