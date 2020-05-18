@@ -12,7 +12,7 @@ public class MenuItem {
 	@Id
 	private int item_code;
 	private String name;
-	private String text;
+	private String description;
 	private double cost;
 	public int getItem_code() {
 		return item_code;
@@ -26,11 +26,11 @@ public class MenuItem {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getText() {
-		return text;
+	public String getDescription() {
+		return description;
 	}
-	public void setText(String text) {
-		this.text = text;
+	public void setDescription(String text) {
+		this.description = text;
 	}
 	public double getCost() {
 		return cost;

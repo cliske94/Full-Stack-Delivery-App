@@ -15,10 +15,10 @@ public class Order {
 	private int drivers_driver_id;
 	private int businesses_id;
 	private Timestamp timestamp;
-	private float miles_total;
-	private float promotional_factor;
+	private Float miles_total;
+	private Float promotional_factor;
 	private int delivery_charge;
-	private int delivery_time_minutes;
+	private Integer delivery_time_minutes;
 	private int locations_id;
 	public int getOrder_id() {
 		return order_id;
@@ -44,16 +44,16 @@ public class Order {
 	public void setTimestamp(Timestamp timestamp) {
 		this.timestamp = timestamp;
 	}
-	public float getMiles_total() {
+	public Float getMiles_total() {
 		return miles_total;
 	}
-	public void setMiles_total(float miles_total) {
+	public void setMiles_total(Float miles_total) {
 		this.miles_total = miles_total;
 	}
-	public float getPromotional_factor() {
+	public Float getPromotional_factor() {
 		return promotional_factor;
 	}
-	public void setPromotional_factor(float promotional_factor) {
+	public void setPromotional_factor(Float promotional_factor) {
 		this.promotional_factor = promotional_factor;
 	}
 	public int getDelivery_charge() {
@@ -62,10 +62,10 @@ public class Order {
 	public void setDelivery_charge(int delivery_charge) {
 		this.delivery_charge = delivery_charge;
 	}
-	public int getDelivery_time_minutes() {
+	public Integer getDelivery_time_minutes() {
 		return delivery_time_minutes;
 	}
-	public void setDelivery_time_minutes(int delivery_time_minutes) {
+	public void setDelivery_time_minutes(Integer delivery_time_minutes) {
 		this.delivery_time_minutes = delivery_time_minutes;
 	}
 	public int getLocations_id() {
