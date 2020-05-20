@@ -10,9 +10,9 @@ public class Payment {
 	
 	private double amount;
 	private String payment_type;
-	private int card_number;
-	private int exp_date;
-	private int cvv;
+	private Integer card_number;
+	private Integer exp_date;
+	private Integer cvv;
 	private int zipcode;
 	private int Persons_id;
 	@Id
@@ -29,22 +29,22 @@ public class Payment {
 	public void setPayment_type(String payment_type) {
 		this.payment_type = payment_type;
 	}
-	public int getCard_number() {
+	public Integer getCard_number() {
 		return card_number;
 	}
-	public void setCard_number(int card_number) {
+	public void setCard_number(Integer card_number) {
 		this.card_number = card_number;
 	}
-	public int getExp_date() {
+	public Integer getExp_date() {
 		return exp_date;
 	}
-	public void setExp_date(int exp_date) {
+	public void setExp_date(Integer exp_date) {
 		this.exp_date = exp_date;
 	}
-	public int getCvv() {
+	public Integer getCvv() {
 		return cvv;
 	}
-	public void setCvv(int cvv) {
+	public void setCvv(Integer cvv) {
 		this.cvv = cvv;
 	}
 	public int getZipcode() {
