@@ -14,15 +14,20 @@ public class Car {
 	
 	private int drivers_id;
 	@Id
-	@GeneratedValue(generator = "uuid")
-	@GenericGenerator(name="uuid",strategy="uuid2")
-	@Column(name="VIN")
+	private int id;
 	private String VIN;
 	private String insurance_verified_YorN;
 	private String color;
 	private String make;
 	private String model;
 	private String plate_number;
+	
+	public int getId() {
+		return id;
+	}
+//	public void setId(int id) {
+//		this.id = id;
+//	}
 	public int getDrivers_id() {
 		return drivers_id;
 	}
@@ -32,8 +37,8 @@ public class Car {
 	public String getVIN() {
 		return VIN;
 	}
-	public void setVIN(String vIN) {
-		VIN = vIN;
+	public void setVIN(String VIN) {
+		this.VIN = VIN;
 	}
 	public String getInsurance_verified_YorN() {
 		return insurance_verified_YorN;
