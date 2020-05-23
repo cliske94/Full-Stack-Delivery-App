@@ -8,14 +8,15 @@ import javax.persistence.Table;
 @Table(name="staff")
 public class Staff {
 	
-	private char adminYorN;
-	private String position;
 	@Id
-	private int persons_id;
-	public char getAdminYorN() {
+	private Integer staff_id;
+	private String adminYorN;
+	private String position;
+	private Integer persons_id;
+	public String getAdminYorN() {
 		return adminYorN;
 	}
-	public void setAdminYorN(char adminYorN) {
+	public void setAdminYorN(String adminYorN) {
 		this.adminYorN = adminYorN;
 	}
 	public String getPosition() {
@@ -24,12 +25,17 @@ public class Staff {
 	public void setPosition(String position) {
 		this.position = position;
 	}
-	public int getPersons_id() {
+	public Integer getPersons_id() {
 		return persons_id;
 	}
-	public void setPersons_id(int persons_id) {
+	public void setPersons_id(Integer persons_id) {
 		this.persons_id = persons_id;
 	}
-	
+	public Integer getStaff_id() {
+		return staff_id;
+	}
+	public void setStaff_id(Integer staff_id) {
+		this.staff_id = staff_id;
+	}
 	
 }
