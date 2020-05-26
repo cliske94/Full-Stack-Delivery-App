@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 
 <head>
     <meta charset="UTF-8">
@@ -12,11 +14,26 @@
 </head>
 
 <body>
-    <h1>Delivery Database Dashboard</h1>
-
+    
+    <nav>
+        <div>
+            <a th:href="@{/}"><b>Home</b></a>
+        </div>
+        <div>
+            <a th:href="@{/secure}">Secure</a>
+        </div>
+        <div>
+            <a th:href="@{/login}">Login</a>
+        </div>
+        <div>
+            <a th:href="@{/register}">Register</a>
+        </div>
+    </nav>
+    
     <div class="jumbotron">
-        
+        <h1>Delivery Database Dashboard</h1>
     </div>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
 </body>
