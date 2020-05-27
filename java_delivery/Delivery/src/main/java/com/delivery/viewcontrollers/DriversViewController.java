@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.delivery.models.Driver;
-import com.delivery.models.Person;
 
 @Controller
 @RequestMapping("/drivers")
@@ -42,14 +41,9 @@ public class DriversViewController {
 			while (rs.next())
 			{
 				Driver driver = new Driver();
-				Person person = new Person();
 				driver.setRating(rs.getInt("rating"));
-				person.setFirst_name(rs.getString("first_name"));
-				person.setLast_name(rs.getString("last_name"));
-				person.setPhone_number(rs.getString("phone_number"));
-				System.out.println(person.getPhone_number());
-				driver.setName(person);
-				driver.setPhone_number(person);
+				//driver.setName(rs.getString("name"));
+				//driver.setPhone_number(rs.getString("phone_number"));
 				drivers.add(driver);
 			}
 		} catch (SQLException e)

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Delivery Database Dashboard</title>
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<nav>
+		<div>
+			<a th:href="@{/}"><b>Home</b></a>
+		</div>
+		<div>
+			<a th:href="@{/cars}">Cars</a>
+		</div>
+		<div>
+			<a th:href="@{/drivers}">Drivers</a>
+		</div>
+		<div>
+			<a th:href="@{/login}">Login</a>
+		</div>
+		<div>
+			<a th:href="@{/register}">Register</a>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<h1>Delivery Database Dashboard</h1>
+	</div>
+
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>

@@ -16,8 +16,8 @@ public class Driver {
 	private int driver_id;
 	@Id
 	private int persons_id;
-	private String name;
-	private String phone_number;
+	//private String name;
+	//private String phone_number;
 	public int getLicense_number() {
 		return license_number;
 	}
@@ -48,22 +48,22 @@ public class Driver {
 	public void setPersons_id(int persons_id) {
 		this.persons_id = persons_id;
 	}
-	public String getName()
-	{
-		return name;
-	}
-	public void setName(Person person)
-	{
-		this.name = person.getFirst_name() + " " + person.getLast_name();
-	}
-	public String getPhone_number()
-	{
-		return phone_number;
-	}
-	public void setPhone_number(Person person)
-	{
-		this.phone_number = person.getPhone_number();
-	}
+//	public String getName()
+//	{
+//		return name;
+//	}
+//	public void setName(String name)
+//	{
+//		this.name = name;
+//	}
+//	public String getPhone_number()
+//	{
+//		return phone_number;
+//	}
+//	public void setPhone_number(String phone_number)
+//	{
+//		this.phone_number = phone_number;
+//	}
 	
 	
 }
