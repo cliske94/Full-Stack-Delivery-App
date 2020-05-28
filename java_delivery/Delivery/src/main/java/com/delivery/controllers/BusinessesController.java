@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.delivery.models.Business;
 
 @Controller
-@RequestMapping({ "/api" })
+@RequestMapping({ "/businesses" })
 public class BusinessesController {
 	@Value("${spring.datasource.url}")
 	private String url;
@@ -28,7 +28,7 @@ public class BusinessesController {
 	@Value("${spring.datasource.password}")
 	private String password;
 	
-	@GetMapping("/businesses")
+	@GetMapping()
 	public String getAllBusinesses(Model model)
 	{
 		List<Business> businesses = new ArrayList<Business>();
