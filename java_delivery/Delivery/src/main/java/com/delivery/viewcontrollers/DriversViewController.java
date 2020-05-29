@@ -48,8 +48,8 @@ public class DriversViewController {
 				person.setLast_name(rs.getString("last_name"));
 				person.setPhone_number(rs.getString("phone_number"));
 				System.out.println(person.getPhone_number());
-				driver.setName(person);
-				driver.setPhone_number(person);
+//				driver.setName(person);
+//				driver.setPhone_number(person);
 				drivers.add(driver);
 			}
 		} catch (SQLException e)
