@@ -8,9 +8,7 @@ Project for Database course
 
 Cody Liske
 
-[![Link to Youtube](http://img.youtube.com/vi/8nKI92y9JZk/0.jpg)](http://www.youtube.com/watch?v=8nKI92y9JZk "Video Title")
 </div>
-<p>Click Above For a Video Demonstration</p>
 Table of Contents
 <ul>
   <li>Introduction</li>
