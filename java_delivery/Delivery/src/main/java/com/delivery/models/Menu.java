@@ -11,6 +11,8 @@ public class Menu {
 	@Id
 	private int menu_id;
 	private int businesses_id;
+	private String name;
+	
 	public int getMenu_id() {
 		return menu_id;
 	}
@@ -23,6 +25,11 @@ public class Menu {
 	public void setBusinesses_id(int businesses_id) {
 		this.businesses_id = businesses_id;
 	}
-	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 }
