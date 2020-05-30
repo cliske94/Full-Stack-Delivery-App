@@ -16,7 +16,7 @@ Table of Contents
   <li>EERD</li>
   <li>Data Dictionary</li>
   <li>Example SQL Queries</li>
-  <li>Full Stack CRUD App</li>
+  <li>Full Stack CRUD Apps (Spring Java/React, RoR)</li>
 </ul>
 
 <h1>
