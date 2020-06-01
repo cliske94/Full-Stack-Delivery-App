@@ -8,9 +8,7 @@ Project for Database course
 
 Cody Liske
 
-[![Link to Youtube](http://img.youtube.com/vi/8nKI92y9JZk/0.jpg)](http://www.youtube.com/watch?v=8nKI92y9JZk "Video Title")
 </div>
-<p>Click Above For a Video Demonstration</p>
 Table of Contents
 <ul>
   <li>Introduction</li>
@@ -18,7 +16,7 @@ Table of Contents
   <li>EERD</li>
   <li>Data Dictionary</li>
   <li>Example SQL Queries</li>
-  <li>Full Stack CRUD App</li>
+  <li>Full Stack CRUD Apps (Spring Java/React, RoR)</li>
 </ul>
 
 <h1>
@@ -385,7 +383,7 @@ SQL Queries
 
 A ruby on rails environment was set up on a partition with Ubuntu 18.04 installed using ruby version 2.7.1 and rails version 6.0.2.2. The above SQL dump was imported into a new schema on an instance of MariaDB version 10.1.44. Models will need to be created and database.yml will have to be configured for your database instance. It is a basic app with CRUD functionality implemented for the Persons table which, to adhere with rails conventions, was changed on my instance to People in order to generate scaffolding. The scaffolding was generated using a gem called schema_to_scaffold; this gem could be used to quickly generate scaffolding for the rest of the tables if one desired. There is also a basic landing page that uses the bootstrap JS library. The files for the CRUD application are above in the delivery folder.
 
-Also, I have begun porting over the frontend to Java spring, as I am learning that for my next job. The source files can be found in the java_delivery directory above.  As I implement more of the CRUD functionality, I will be pushing to this directory and adding screenshots to the end of this readme.
+Also, I have begun building another application using the designed database above with some minor modifications, Java Spring on the backend, and ReactJS on the frontend. As of this writing, I am almost completed with the backend API. Once the API is finished, I will build and push the frontend application into its own directory. I also plan to implement authorization and authentication for both applications, and deploy them on the web to demonstrate my ability to employers.
 
 <img src="Assets/img/update_form.png">
 <img src="Assets/img/show_rows.png">
