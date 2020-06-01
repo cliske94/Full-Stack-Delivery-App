@@ -1,10 +1,10 @@
-# ITCS3160PROJECT
+# University Food Delivery Application
 <head>
 
 </head>
 <body>
 <div>
-Project for Database course
+Originally a Project for Database Design and Implementation Course
 
 Cody Liske
 
